@@ -1,0 +1,67 @@
+#dailyCalender {
+    background-color: #FEF8D9;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* #calenderContainer {
+    clear: both; 
+    float: left; 
+    list-style: none; 
+    margin: 0px 10px 0 0px; 
+    border-bottom:1px solid #333333;
+    width:500px;
+} */
+
+#searchSection {
+    margin: 25px 0;
+}
+
+#containerBorder {
+
+}
+
+#calenderContent {
+    padding: 20px;
+}
+
+#day {
+    display: inline; 
+    list-style: none;
+}
+button.btn.btn-info {
+    width: 60px;
+    text-align: center;
+}
+div#calenderContainer.row {
+    padding-bottom: 10px;
+}
+
+#calenderTitle {
+    font-size: 50px;
+    margin: 20px;
+    text-align: left;
+    color: #3E4032;
+    text-shadow: 2px 2px 1px #7A7A7A;
+    position: relative;
+    left: 30px;
+
+}
+
+#calenderSubtitle {
+    font-size: 23px;
+    text-align: left;
+    color: #3E4032;
+    text-shadow: 2px 2px 1px #7A7A7A;
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+}
+
+#summaryCalender {
+    border-top: 2px solid #3E4032;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+}
