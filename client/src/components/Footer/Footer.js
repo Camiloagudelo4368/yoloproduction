@@ -47,7 +47,7 @@ function Footer() {
               </div>
             </div>
             <div id="footerList2" className="footer-copyright text-center py-3">© 2019 Copyright:
-              <a id="footerList" href="https://github.com/Alainrj/YOLO"> Columbia Bootcamp Group</a>
+              <a id="footerList" href="https://github.com/Alainrj/YOLO"> Yolo Group</a>
             </div>
         </footer>
     );

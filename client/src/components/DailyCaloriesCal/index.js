@@ -94,13 +94,17 @@ class DailyCaloriesCal extends React.Component {
         console.log('state', this.state)
         return (
             <div className="container" id="dailyCalculator">
+
                 <div id="dailyMainTitle">
-                    <h2 id="myPageTitle">
-                        My Page
-                    </h2>
-                    <h5 id="myPageSubTitle">
-                        You can check your daily calories.
-                    </h5>
+                    <div className="row">
+                        {/* <div className="col-3"><img className="imgProgress" srcSet="./img/loss.jpeg"></img></div> */}
+                        <div className="col-3"><img className="imgProgress" srcSet="./img/3monthweightloss.jpg"></img></div>
+                        <div className="col-6">
+                            <h2 id="myPageTitle">My Page</h2>
+                            <h5 id="myPageSubTitle">You can check your daily calories.</h5>
+                        </div>
+                        <div className="col-3"></div>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6" id="dailyCalculatorContents">
@@ -143,7 +147,7 @@ class DailyCaloriesCal extends React.Component {
                             <div>
                                 <p className="text-center">Input info to search by location to find the restaurant menu items you can eat!
                                 <br></br><br></br>
-                                    
+
                                     <button type="button" className="btn-info btn-block text-center" onClick={() => window.location = "/bycaloriessearch"} >let's Go </button>
                                 </p>
                             </div>
