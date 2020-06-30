@@ -21,7 +21,7 @@
   "homepage": "https://camiloagudelo4368.github.io/yolo#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "mongoose": "^5.6.3",
     "passport": "^0.4.0"
   }
